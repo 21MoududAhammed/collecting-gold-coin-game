@@ -32,8 +32,8 @@ export default function GoldCoin() {
         Press Here
       </button>
       <div className="text-2xl ">
-        <h2>Gold Coin : {goldCoin}</h2>
-        <h2>Round : {round} </h2>
+        <h2>Gold Coin : {goldCoin}</h2> {/*Coin counter*/}
+        <h2>Round : {round} </h2> {/*round counter*/}
       </div>
     </div>
   );
